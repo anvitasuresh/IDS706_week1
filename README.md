@@ -20,7 +20,9 @@ If you want to run the functions in hello.py, run the script directly using 'pyt
 ### 1) Clone the repository
 To use this template further, first clone the repository using git clone. If you are working working outside the dev container, create the virtual Python environment using the code below:
 
-``` python3 -m venv ~/.IDS706_python_template
+```markdown
+```bash
+python3 -m venv ~/.IDS706_python_template
 source ~/.IDS706_python_template/bin/activate
 
 Then, install the dependencies using 'make install'
@@ -32,7 +34,9 @@ Then, install the dependencies using 'make install'
 
 ### 3) Commit the new changes using example code below
 
-``` git add .
+```markdown
+```bash
+git add .
 git commit -m "Initial commit for Project"
 git push origin main
 
